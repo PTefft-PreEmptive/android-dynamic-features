@@ -38,6 +38,14 @@ android {
                        ':features:java',
                        ':features:native',
                        ':features:assets']
+    buildTypes {
+        debug {
+            minifyEnabled true
+        }
+        release {
+            minifyEnabled true
+        }
+    }
 }
 
 dependencies {
